@@ -1,0 +1,13 @@
+# Put these packages in your backend/requirements.txt
+fastapi
+uvicorn[standard]
+pdfplumber
+python-docx
+python-magic
+spacy
+docx2txt
+sentence-transformers
+rapidfuzz
+pydantic
+pdfminer.six
+python-multipart
