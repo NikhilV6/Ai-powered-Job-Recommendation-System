@@ -1,13 +1,33 @@
-# Put these packages in your backend/requirements.txt
-fastapi
-uvicorn[standard]
-pdfplumber
-python-docx
-python-magic
-spacy
-docx2txt
-sentence-transformers
+# Core API Framework
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+pydantic==2.6.4
+pydantic-settings==2.2.1
+requests==2.31.0
+
+# NLP & Embeddings
+spacy==3.7.2
+sentence-transformers==2.5.1
 rapidfuzz
-pydantic
+scikit-learn==1.4.1.post1
+numpy==1.26.4
+
+# PDF & DOC Processing
+pdfplumber==0.11.0
 pdfminer.six
-python-multipart
+PyPDF2==3.0.1
+python-docx
+docx2txt
+python-magic
+
+# Deep Learning
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==2.2.0
+
+# Vector Database
+faiss-cpu==1.7.4
+
+
+pandas
