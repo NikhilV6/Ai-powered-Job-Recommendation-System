@@ -1,4 +1,4 @@
 faiss.index
 metadata.pkl
-*/__pycache__/*
+/__pycache__/*
 .env
