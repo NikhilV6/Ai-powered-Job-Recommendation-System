@@ -213,15 +213,15 @@ You can now:
 
 # 🧠 API Overview
 
-### **/resume/parse**
+### **/resume/upload**
 
 Parse resume → extract skills, education, etc.
 
-### **/recommend/jobs**
+### **/recommend**
 
 Vector search → Top‑K similar jobs.
 
-### **/skill-gap/**
+### **/skill-gap-simple/**
 
 Input: candidate skills + job skills → compute gaps.
 
